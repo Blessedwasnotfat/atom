@@ -89,6 +89,8 @@ module.exports = class TextEditor {
     return TextEditorComponent.didUpdateStyles();
   }
 
+  
+  
   static didUpdateScrollbarStyles() {
     if (TextEditorComponent == null) {
       TextEditorComponent = require('./text-editor-component');
